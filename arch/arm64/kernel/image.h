@@ -73,7 +73,7 @@
 
 #ifdef CONFIG_EFI
 
-__efistub_stext_offset = stext - _text;
+__efistub_stext_offset = ABSOLUTE(stext - _text);
 
 /*
  * The EFI stub has its own symbol namespace prefixed by __efistub_, to

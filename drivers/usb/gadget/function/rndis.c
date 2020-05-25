@@ -20,7 +20,6 @@
  * Copyright (C) 2004 by David Brownell
  *		updates to merge with Linux 2.6, better match RNDIS spec
  */
-
 #include <linux/module.h>
 #include <linux/moduleparam.h>
 #include <linux/kernel.h>
